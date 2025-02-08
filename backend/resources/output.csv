@@ -1,0 +1,14 @@
+COMPLAINT_ID,CONTRACT_ID,PARENT_ORGANIZATION,REGION_RESPONSIBLE,CATEGORY,SUBCATEGORY,SUBCATEGORY_OTHER,COMPLAINT_SUMMARY,UPDATED_DATE,CASEWORK,COMMENT_TEXT,COMPLAINANT_TYPE,STATE,x,y
+1001,C12345,Acme Corp,North,Service,Response Time,,The response time for support was unacceptable.,2024-05-10,Investigated response logs; contacted support.,No resolution provided even after multiple calls.,Customer,Open,84.053566,-298.9658
+1002,C12346,Globex Inc,South,Product,Quality,Packaging,Product quality is subpar and packaging was damaged.,2024-05-11,Inspected returned products; verified complaints.,Product arrived with broken seal and dents.,Consumer,Closed,130.09097,9.612012
+1003,C12347,Initech,East,Billing,Invoice Error,,Invoice contains incorrect charges.,2024-05-12,Reviewed invoice details; confirmed error.,Overcharged for services not rendered.,Client,Resolved,-391.77087,-37.41973
+C001,CT1001,Acme Corp,North America,Billing,Overcharge,,Customer was overcharged by $50 on the last invoice.,2025-01-15,Open,Investigating the overcharge issue.,Individual,CA,-450.9592,-16.729212
+C002,CT1002,Globex Inc,Europe,Service,Delay,,Service activation was delayed by two weeks.,2025-01-20,Closed,Apologized and provided a discount.,Individual,TX,339.83026,160.85704
+C003,CT1003,Initech,Asia,Product,Defective Item,,Received a defective product that doesn't work.,2025-01-25,Open,Awaiting return of the defective item.,Business,NY,2.336505,308.67032
+C004,CT1004,Umbrella Corp,South America,Support,Unresponsive,,Customer support has not responded to multiple inquiries.,2025-01-30,Closed,Provided support and resolved the issue.,Individual,FL,62.36289,-253.4472
+C005,CT1005,Stark Industries,Africa,Delivery,Missing Item,,An item was missing from the delivered package.,2025-02-01,Open,Processing the shipment of the missing item.,Business,IL,233.25261,220.83076
+C006,CT1006,Wayne Enterprises,Australia,Billing,Incorrect Charge,,Incorrect charge applied to the account.,2025-02-05,Closed,Corrected the billing error.,Individual,WA,-343.12387,-53.348434
+C007,CT1007,Wonka Industries,Europe,Product,Expired Product,,Received an expired product.,2025-02-10,Open,Offered replacement or refund options.,Individual,OR,45.49625,331.81824
+C008,CT1008,Soylent Corp,North America,Service,Poor Quality,,Service quality does not meet expectations.,2025-02-15,Closed,Improved service quality and offered compensation.,Business,MI,126.02788,-39.75849
+C009,CT1009,Tyrell Corporation,Asia,Support,Rude Behavior,,Support staff was rude during the interaction.,2025-02-20,Open,Addressing the behavior with the support team.,Individual,NC,104.26138,-360.50867
+C010,CT1010,Black Mesa,South America,Delivery,Delayed Delivery,,Delivery was delayed by over a week.,2025-02-25,Closed,Expedited future deliveries and provided a discount.,Business,GA,296.55038,188.73633

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Complaint Data Visualization</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <style>
+    .tooltip {
+      position: absolute;
+      text-align: left;
+      padding: 8px;
+      font: 12px sans-serif;
+      background: lightsteelblue;
+      border: 1px solid #333;
+      border-radius: 4px;
+      pointer-events: none;
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+  <svg width="800" height="600"></svg>
+  <div class="tooltip" id="tooltip"></div>
+
+  <script>
+    fetch("./complaints_data.json")
+      .then(response => response.json())
+      .then(data => {
+        const svg = d3.select("svg");
+        const width = +svg.attr("width");
+        const height = +svg.attr("height");
+
+  
+        const categories = Array.from(new Set(data.map(d => d.CATEGORY)));
+
+      
+        const colorScale = d3.scaleOrdinal()
+          .domain(categories)
+          .range(d3.schemeCategory10);  
+
+        const xExtent = d3.extent(data, d => +d.x);
+        const yExtent = d3.extent(data, d => +d.y);
+        const xScale = d3.scaleLinear().domain(xExtent).range([50, width - 50]);
+        const yScale = d3.scaleLinear().domain(yExtent).range([height - 50, 50]);
+
+        const tooltip = d3.select("#tooltip");
+
+   
+        svg.selectAll("circle")
+          .data(data)
+          .enter().append("circle")
+          .attr("cx", d => xScale(+d.x))
+          .attr("cy", d => yScale(+d.y))
+          .attr("r", 5)
+          .style("fill", d => colorScale(d.CATEGORY))
+          .on("mouseover", (event, d) => {
+            tooltip.transition().duration(200).style("opacity", 0.9);
+            tooltip.html(
+              `<strong>ID:</strong> ${d.COMPLAINT_ID}<br>
+               <strong>Summary:</strong> ${d.COMPLAINT_SUMMARY}<br>
+               <strong>Category:</strong> ${d.CATEGORY}`
+            )
+            .style("left", (event.pageX + 10) + "px")
+            .style("top", (event.pageY - 28) + "px");
+          })
+          .on("mouseout", () => {
+            tooltip.transition().duration(500).style("opacity", 0);
+          })
+          .on("click", (event, d) => {
+            alert(`Detailed info for Complaint ID ${d.COMPLAINT_ID}`);
+          });
+      })
+      .catch(error => console.error("Error loading data:", error));
+  </script>
+</body>
+</html>

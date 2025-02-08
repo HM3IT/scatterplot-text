@@ -1,0 +1,61 @@
+COMPLAINT_ID,CONTRACT_ID,PARENT_ORGANIZATION,REGION_RESPONSIBLE,CATEGORY,SUBCATEGORY,SUBCATEGORY_OTHER,COMPLAINT_SUMMARY,UPDATED_DATE,CASEWORK,COMMENT_TEXT,COMPLAINANT_TYPE,STATE
+C001,CT1001,Acme Corp,North America,Billing,Overcharge,,Customer was overcharged by $50 on the last invoice.,2025-01-15,Open,Investigating the overcharge issue.,Individual,CA
+C002,CT1002,Globex Inc,Europe,Service,Delay,,Service activation was delayed by two weeks.,2025-01-20,Closed,Apologized and provided a discount.,Individual,TX
+C003,CT1003,Initech,Asia,Product,Defective Item,,Received a defective product that doesn't work.,2025-01-25,Open,Awaiting return of the defective item.,Business,NY
+C004,CT1004,Umbrella Corp,South America,Support,Unresponsive,,Customer support has not responded to multiple inquiries.,2025-01-30,Closed,Provided support and resolved the issue.,Individual,FL
+C005,CT1005,Stark Industries,Africa,Delivery,Missing Item,,An item was missing from the delivered package.,2025-02-01,Open,Processing the shipment of the missing item.,Business,IL
+C006,CT1006,Wayne Enterprises,Australia,Billing,Incorrect Charge,,Incorrect charge applied to the account.,2025-02-05,Closed,Corrected the billing error.,Individual,WA
+C007,CT1007,Wonka Industries,Europe,Product,Expired Product,,Received an expired product.,2025-02-10,Open,Offered replacement or refund options.,Individual,OR
+C008,CT1008,Soylent Corp,North America,Service,Poor Quality,,Service quality does not meet expectations.,2025-02-15,Closed,Improved service quality and offered compensation.,Business,MI
+C009,CT1009,Tyrell Corporation,Asia,Support,Rude Behavior,,Support staff was rude during the interaction.,2025-02-20,Open,Addressing the behavior with the support team.,Individual,NC
+C010,CT1010,Black Mesa,South America,Delivery,Delayed Delivery,,Delivery was delayed by over a week.,2025-02-25,Closed,Expedited future deliveries and provided a discount.,Business,GA
+C011,CT1011,Cyberdyne Systems,North America,Billing,Double Charge,,Customer was charged twice for the same transaction.,2025-03-01,Open,Processing the refund.,Individual,OH
+C012,CT1012,LexCorp,Europe,Service,Installation Issue,,Installation process encountered technical difficulties.,2025-03-05,Closed,Resolved installation issue remotely.,Business,PA
+C013,CT1013,Oscorp,Asia,Product,Wrong Item,,Received the wrong item in the order.,2025-03-10,Open,Arranging correct item delivery.,Individual,VA
+C014,CT1014,Vought International,South America,Support,Slow Response,,Support response took more than 48 hours.,2025-03-15,Closed,Improved response time and provided support.,Business,CO
+C015,CT1015,Dharma Initiative,Africa,Delivery,Damaged Item,,Item was damaged upon arrival.,2025-03-20,Open,Offering a replacement or refund.,Individual,AZ
+C016,CT1016,Aperture Science,Australia,Billing,Unapplied Discount,,Discount was not applied during checkout.,2025-03-25,Closed,Applied the discount and refunded the difference.,Business,MA
+C017,CT1017,Buy n Large,Europe,Service,Connection Issue,,Service connection is frequently dropping.,2025-03-30,Open,Investigating connection stability issues.,Individual,NV
+C018,CT1018,Encom,North America,Product,Faulty Software,,Software crashes frequently and is unusable.,2025-04-01,Closed,Issued a patch to fix the problem.,Business,MO
+C019,CT1019,Omni Consumer Products,Asia,Support,Unhelpful Staff,,Support staff did not resolve the issue.,2025-04-05,Open,Providing additional training to support staff.,Individual,WI
+C020,CT1020,Weyland-Yutani,South America,Delivery,Lost Package,,Package never arrived at the destination.,2025-04-10,Closed,Reshipped the order and provided tracking.,Business,MN
+C021,CT1021,Rekall Inc,North America,Billing,Incorrect Currency,,Invoice was issued in the wrong currency.,2025-04-15,Open,Reissuing invoice in correct currency.,Business,NY
+C022,CT1022,Spectre,Europe,Service,Frequent Outages,,Service has been frequently unavailable.,2025-04-20,Closed,Implemented stability improvements.,Individual,TX
+C023,CT1023,Jurassic Park,Asia,Product,Missing Accessories,,Product arrived without necessary accessories.,2025-04-25,Open,Shipping missing accessories.,Business,FL
+C024,CT1024,Cloud City Corp,South America,Support,No Follow-Up,,Support promised follow-up but never responded.,2025-04-30,Closed,Escalated case and provided resolution.,Individual,IL
+C025,CT1025,Monarch Solutions,Africa,Delivery,Wrong Address,,Package was delivered to the wrong address.,2025-05-05,Open,Investigating delivery error.,Business,OH
+C026,CT1026,Massive Dynamic,Australia,Billing,Unexpected Fee,,Unexpected service fee appeared on the invoice.,2025-05-10,Closed,Waived the fee as a courtesy.,Individual,WA
+C027,CT1027,Blue Sun Corporation,Europe,Service,Unreliable Performance,,Service works inconsistently.,2025-05-15,Open,Analyzing logs to identify the issue.,Business,OR
+C028,CT1028,Wonkavision,North America,Product,Damaged Packaging,,Product box was torn upon delivery.,2025-05-20,Closed,Offered replacement or discount.,Individual,MI
+C029,CT1029,Hyperion,Asia,Support,Unhelpful Instructions,,Support provided unclear troubleshooting steps.,2025-05-25,Open,Rewriting support documentation.,Business,NC
+C030,CT1030,Abstergo Industries,South America,Delivery,Shipment Delayed,,Expected delivery date was missed.,2025-05-30,Closed,Expedited shipping for future orders.,Individual,GA
+C031,CT1031,Omnitech,North America,Billing,Unauthorized Charge,,An unauthorized charge appeared on the account.,2025-06-01,Open,Investigating fraudulent activity.,Business,CA
+C032,CT1032,Tycho Corp,Europe,Service,Slow Speeds,,Service speed is significantly lower than advertised.,2025-06-05,Closed,Adjusted settings to improve speed.,Individual,TX
+C033,CT1033,Nakatomi Trading,Asia,Product,Counterfeit Item,,Product appears to be a counterfeit.,2025-06-10,Open,Verifying authenticity of the item.,Business,NY
+C034,CT1034,Polybius Ltd,South America,Support,No Response,,Customer service has not responded at all.,2025-06-15,Closed,Assigned a dedicated support agent.,Individual,FL
+C035,CT1035,RetroTech,Africa,Delivery,Wrong Quantity,,Received fewer items than ordered.,2025-06-20,Open,Shipping the missing items.,Business,IL
+C036,CT1036,Atlas Corporation,Australia,Billing,Late Refund,,Refund has not been processed within the expected time.,2025-06-25,Closed,Expedited the refund process.,Individual,WA
+C037,CT1037,Redwood Systems,Europe,Service,Unexpected Downtime,,Service was down for an unplanned period.,2025-06-30,Open,Providing compensation for downtime.,Business,OR
+C038,CT1038,DataDyne,North America,Product,Defective Batch,,Multiple units from the same batch are defective.,2025-07-05,Closed,Recalled defective batch and replaced items.,Individual,MI
+C039,CT1039,Synapse Technologies,Asia,Support,Multiple Transfers,,Customer was transferred between multiple agents.,2025-07-10,Open,Improving support routing system.,Business,NC
+C040,CT1040,Helios Labs,South America,Delivery,Lost in Transit,,Package was lost in transit.,2025-07-15,Closed,Issued a full refund and replacement.,Individual,GA
+C041,CT1041,CryoCorp,North America,Billing,Incorrect Subscription Plan,,Customer was placed on the wrong subscription plan.,2025-07-20,Open,Updating the subscription plan and issuing a refund.,Business,NY
+C042,CT1042,Splice Genetics,Europe,Service,Activation Failure,,Service activation failed despite confirmation.,2025-07-25,Closed,Resolved backend issue and activated service.,Individual,TX
+C043,CT1043,Zephyr Enterprises,Asia,Product,Defective Screen,,Product screen is malfunctioning.,2025-07-30,Open,Arranging for replacement or repair.,Business,FL
+C044,CT1044,Vista Dynamics,South America,Support,Automated Responses,,Customer keeps receiving automated responses with no real help.,2025-08-05,Closed,Assigned a human agent to resolve the issue.,Individual,IL
+C045,CT1045,Infinity Labs,Africa,Delivery,Partial Delivery,,Only part of the order was delivered.,2025-08-10,Open,Processing shipment of missing items.,Business,OH
+C046,CT1046,Neon Systems,Australia,Billing,Overdue Payment Notice,,Received an overdue payment notice for a bill already paid.,2025-08-15,Closed,Corrected account status and removed notice.,Individual,WA
+C047,CT1047,Echo Tech,Europe,Service,VPN Connectivity Issue,,Customer is unable to connect to the VPN service.,2025-08-20,Open,Investigating VPN configuration.,Business,OR
+C048,CT1048,Omega Solutions,North America,Product,Faulty Battery,,Device battery drains unusually fast.,2025-08-25,Closed,Provided a replacement battery.,Individual,MI
+C049,CT1049,Zion Technologies,Asia,Support,Failure to Escalate,,Support refused to escalate the issue to a higher tier.,2025-08-30,Open,Reviewing escalation policies and resolving issue.,Business,NC
+C050,CT1050,Phoenix Systems,South America,Delivery,Tracking Not Updating,,Tracking information has not been updated for days.,2025-09-05,Closed,Contacted courier and provided new tracking.,Individual,GA
+C051,CT1051,Quantum Dynamics,North America,Billing,Incorrect Invoice Amount,,Invoice total does not match agreed pricing.,2025-09-10,Open,Reviewing contract terms and correcting invoice.,Business,CA
+C052,CT1052,Mirage Corp,Europe,Service,Streaming Buffering,,Streaming service frequently buffers.,2025-09-15,Closed,Upgraded server capacity to improve performance.,Individual,TX
+C053,CT1053,StormTech,Asia,Product,Incorrect Software Version,,Received an outdated software version.,2025-09-20,Open,Providing the latest software update.,Business,NY
+C054,CT1054,AstroCom,South America,Support,Agent Hung Up,,Support agent disconnected call before resolving issue.,2025-09-25,Closed,Issued an apology and retrained support team.,Individual,FL
+C055,CT1055,Orion Systems,Africa,Delivery,Returned to Sender,,Package was returned to sender without delivery attempt.,2025-09-30,Open,Re-dispatching package with priority shipping.,Business,IL
+C056,CT1056,Starlight Enterprises,Australia,Billing,Duplicate Payment,,Two identical payments were deducted.,2025-10-05,Closed,Processing refund for the duplicate charge.,Individual,WA
+C057,CT1057,Nebula Technologies,Europe,Service,Inconsistent Performance,,Service works well sometimes but fails unpredictably.,2025-10-10,Open,Analyzing performance logs to identify root cause.,Business,OR
+C058,CT1058,Solaris Inc,North America,Product,Broken Seal,,Received a product with a broken security seal.,2025-10-15,Closed,Investigating potential tampering and offering replacement.,Individual,MI
+C059,CT1059,Hypernova Systems,Asia,Support,Long Hold Times,,Customer waited over 30 minutes on hold.,2025-10-20,Open,Implementing callback system to reduce hold times.,Business,NC
+C060,CT1060,FutureTech,South America,Delivery,Failed Delivery Attempt,,Courier attempted delivery but did not leave a notice.,2025-10-25,Closed,Re-scheduling delivery and notifying customer.,Individual,GA
