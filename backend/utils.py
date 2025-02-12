@@ -2,6 +2,7 @@ import io
 import tempfile
 from pathlib import Path
 import pandas as pd
+from boto3_type_annotations.s3 import Client
 from xls2xlsx import XLS2XLSX
 # from quadfeather.tiler import main
 # from pyarrow import feather
@@ -61,3 +62,38 @@ async def save_file(file_name: str, content: str |bytes) -> str:
 #         Path(temp_csv_path).unlink()
         
 #         return tiles_path
+
+
+
+def generate_topic_with_bedrock(client:Client, modelId:str, text:str): 
+ 
+    user_message = f"""
+        Based on the following cluster of complaints: {text}, generate a main topic or theme that best summarizes it. 
+        The topic should be concise, ideally no more than seven words. 
+
+        For example:
+        - "Product Quality Issues".
+        - "Service Delivery Delays".
+        
+        Don't include extra words. Just provide topic (Important!).
+    """
+
+    conversation = [
+        {
+            "role": "user",
+            "content": [{"text": user_message}],
+        }
+    ]
+
+    response = client.converse(
+        modelId=modelId,
+        messages=conversation,
+        inferenceConfig={
+            "maxTokens": 512,
+            "temperature": 0.4,
+            "topP": 0.9,
+        },
+    )
+
+    response_text = response["output"]["message"]["content"][0]["text"]
+    return response_text
